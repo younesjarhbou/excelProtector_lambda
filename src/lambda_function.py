@@ -74,5 +74,5 @@ def lambda_handler(event, context):
     return
     {
         'statusCode': 200,
-        'body': json.dumps('hello from github action')
+        'body': json.dumps('hello from github action + permission')
     }
